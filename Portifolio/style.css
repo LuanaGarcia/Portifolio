@@ -55,7 +55,7 @@ header {
   line-height: 3rem;
   margin-bottom: 2rem;
   opacity: 0;
-  animation: moveBanner 1s forwards;
+  animation: moveBanner 1s 0.5s forwards;
 }
   
 
@@ -66,6 +66,8 @@ header {
   font-size: 3rem;
   text-shadow: .2rem .2rem .2px rgba(0, 0, 0, 4);
   margin-bottom: 2rem;
+  opacity: 0;
+  animation: moveBanner 1s 0.7s forwards;
 }
 .banner button{
   font-family:"Open+Sans:ital",serif ;
@@ -80,6 +82,8 @@ header {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  opacity: 0;
+  animation: moveBanner 1s 0.9s forwards;
 }
 @keyframes moveBanner{
   0%{

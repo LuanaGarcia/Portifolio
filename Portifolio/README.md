@@ -8,5 +8,5 @@ O controle de tarefas desse site sera realizada no git hub
 
 :package: Nova funcionalidade
 :up: Atualização
-:beatle: Correção de bug
+:ok_hand: Correção de bug
 :checkered_flag: Release

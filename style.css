@@ -48,13 +48,36 @@ body {
   transform: rotate(45deg) translate(.3rem, .45rem) ;
 }
 
+.show-menu #line2{
+  opacity: 0;
+  visibility: hidden;
+}
+
 .show-menu #line3{
   transform: rotate(-45deg) translate(.3rem, -.45rem) ;
 }
 
-.show-menu #line2{
-  opacity: 0;
-  visibility: hidden;
+.hamburger span{
+  position: absolute;
+  left: 3rem;
+  height: 2rem;
+  width: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2980b9;
+  color: #fff;
+  font-family: var (--font-action);
+}
+
+.hamburger span::before{
+  content: "";
+  position: absolute;
+  border-right: .5rem solid #2980b9;
+  border-top: .5rem solid transparent;
+  border-left: .5rem solid transparent;
+  border-bottom: .5rem solid transparent;
+  left: -1rem;
 
 }
 

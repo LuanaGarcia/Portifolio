@@ -6,7 +6,7 @@ O controle de tarefas desse site sera realizada no git hub
 
 ## Icons
 
-:package: Nova funcionalidade
-:up: Atualização
-:ok_hand: Correção de bug
-:checkered_flag: Release
+:nerd_face: Nova funcionalidade
+:ok_hand: Atualização
+:brain: Correção de bug
+:muscle: Release
